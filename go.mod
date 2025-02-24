@@ -1,6 +1,6 @@
 module go-scan
 
-go 1.23
+go 1.22.0
 
 require (
 	github.com/gagliardetto/solana-go v1.12.0
