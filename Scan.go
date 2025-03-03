@@ -18,7 +18,7 @@ type ScanBlock struct {
 }
 
 func New() *ScanBlock {
-	url := "https://divine-blue-lambo.solana-mainnet.quiknode.pro/6b3c971fe457494b5068a3527d4934a7564fe178"
+	url := ""
 	rpcClient := rpc.NewWithCustomRPCClient(rpc.NewWithLimiter(
 		url,
 		rate.Every(time.Second), // time frame
